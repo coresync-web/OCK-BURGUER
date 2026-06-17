@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="OCK Burger – Hamburgeria Artesanal, Choperia e Restaurante em Santa Helena de Goiás." />
+    <title>OCK Burger · Since 2021</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- LOADING SCREEN -->
+    <div id="loader">
+      <div class="loader-burger">
+        <div class="lb-bun-top"></div>
+        <div class="lb-sesame s1"></div>
+        <div class="lb-sesame s2"></div>
+        <div class="lb-sesame s3"></div>
+        <div class="lb-lettuce"></div>
+        <div class="lb-tomato"></div>
+        <div class="lb-cheese"></div>
+        <div class="lb-patty"></div>
+        <div class="lb-bun-bottom"></div>
+      </div>
+      <p class="loader-text">Preparando seu pedido…</p>
+    </div>
+
+    <!-- NAVBAR -->
+    <header id="navbar">
+      <a href="#hero" class="nav-logo">
+        <img src="images/image.png" alt="OCK Burger" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#localizacao">Localização</a>
+        <a href="https://wa.me/5564992025560" target="_blank" rel="noopener" class="nav-cta">Pedir Agora</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-parallax" id="heroBg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-smoke"></div>
+      <div class="hero-content">
+        <div class="hero-badge">Since 2021</div>
+        <h1 class="hero-title">
+          <span>O Sabor</span>
+          <span class="gold">Que Vicia</span>
+        </h1>
+        <p class="hero-sub">Hambúrgueres Artesanais · Chopp Brahma · Pratos Executivos</p>
+        <div class="hero-btns">
+          <a href="#cardapio" class="btn btn-primary">Ver Cardápio</a>
+          <a href="https://wa.me/5564992025560" target="_blank" rel="noopener" class="btn btn-outline">Pedir Agora</a>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-visual" data-aos="fade-right">
+            <div class="bb-layer">
+              <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=800" alt="OCK Burger" loading="lazy" />
+            </div>
+            <div class="bb-stats">
+              <div class="stat"><span class="stat-num" data-target="35">0</span><span class="stat-label">Mesas</span></div>
+              <div class="stat"><span class="stat-num" data-target="35">0</span><span class="stat-label">Colaboradores</span></div>
+              <div class="stat"><span class="stat-num" data-target="4">0</span><span class="stat-label">Anos</span></div>
+            </div>
+          </div>
+          <div class="sobre-text" data-aos="fade-left">
+            <p class="section-tag">Nossa História</p>
+            <h2 class="section-title">De Delivery a<br/><span class="gold">Destino Gastronômico</span></h2>
+            <p>Fundada em 2021 como um simples delivery de hambúrgueres artesanais, a <strong>OCK Burger</strong> rapidamente conquistou o paladar de Santa Helena de Goiás. A aceitação foi tão grande que abrimos mesas, expandimos o espaço e hoje somamos mais de <strong>35 mesas</strong>, uma <strong>brinquedoteca</strong> e <strong>35+ colaboradores</strong> dedicados.</p>
+            <p>Aqui você encontra hambúrgueres artesanais preparados na hora, porções crocantes, pratos executivos e o gelado Chopp Brahma para fechar com chave de ouro.</p>
+            <div class="diferenciais">
+              <div class="dif-item"><div class="dif-icon">🍔</div><span>Artesanal</span></div>
+              <div class="dif-item"><div class="dif-icon">🍺</div><span>Chopp Gelado</span></div>
+              <div class="dif-item"><div class="dif-icon">🎠</div><span>Brinquedoteca</span></div>
+              <div class="dif-item"><div class="dif-icon">🛵</div><span>Delivery</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section id="destaques">
+      <div class="container">
+        <p class="section-tag centered" data-aos="fade-up">Os Favoritos</p>
+        <h2 class="section-title centered" data-aos="fade-up">Nossos <span class="gold">Destaques</span></h2>
+        <div class="destaque-cards">
+          <div class="dcard" data-aos="fade-up" data-delay="0">
+            <div class="dcard-img">
+              <img src="https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=600" alt="OCK Classic" loading="lazy" />
+              <div class="dcard-badge">Popular</div>
+            </div>
+            <div class="dcard-body">
+              <h3>OCK Classic</h3>
+              <p>Pão brioche artesanal, blend especial 180g, queijo cheddar, alface, tomate e molho da casa.</p>
+              <div class="dcard-footer">
+                <span class="price">R$ 32,90</span>
+                <a href="https://wa.me/5564992025560?text=Quero%20pedir%20OCK%20Classic!" target="_blank" rel="noopener" class="btn-sm">Pedir</a>
+              </div>
+            </div>
+          </div>
+          <div class="dcard" data-aos="fade-up" data-delay="100">
+            <div class="dcard-img">
+              <img src="https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=600" alt="OCK Smash" loading="lazy" />
+              <div class="dcard-badge new">Novo</div>
+            </div>
+            <div class="dcard-body">
+              <h3>OCK Smash</h3>
+              <p>Dois smash burgers 90g, queijo americano, cebola caramelizada, picles e maionese defumada.</p>
+              <div class="dcard-footer">
+                <span class="price">R$ 38,90</span>
+                <a href="https://wa.me/5564992025560?text=Quero%20pedir%20OCK%20Smash!" target="_blank" rel="noopener" class="btn-sm">Pedir</a>
+              </div>
+            </div>
+          </div>
+          <div class="dcard" data-aos="fade-up" data-delay="200">
+            <div class="dcard-img">
+              <img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Porção Especial" loading="lazy" />
+              <div class="dcard-badge">Combo</div>
+            </div>
+            <div class="dcard-body">
+              <h3>Porção + Chopp</h3>
+              <p>Batata frita com cheddar e bacon + 1 chopp Brahma gelado. A combinação perfeita!</p>
+              <div class="dcard-footer">
+                <span class="price">R$ 45,90</span>
+                <a href="https://wa.me/5564992025560?text=Quero%20pedir%20Porcao%20+%20Chopp!" target="_blank" rel="noopener" class="btn-sm">Pedir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARDÁPIO -->
+    <section id="cardapio">
+      <div class="container">
+        <p class="section-tag centered" data-aos="fade-up">Cardápio Completo</p>
+        <h2 class="section-title centered" data-aos="fade-up">Escolha o <span class="gold">Seu Favorito</span></h2>
+        <div class="menu-search-wrap" data-aos="fade-up">
+          <input type="text" id="menuSearch" placeholder="Buscar no cardápio…" autocomplete="off" />
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <div class="menu-filters" data-aos="fade-up">
+          <button class="mf-btn active" data-cat="all">Todos</button>
+          <button class="mf-btn" data-cat="burgers">Hambúrgueres</button>
+          <button class="mf-btn" data-cat="porcoes">Porções</button>
+          <button class="mf-btn" data-cat="executivo">Pratos Executivos</button>
+          <button class="mf-btn" data-cat="chopp">Chopp &amp; Bebidas</button>
+        </div>
+        <div class="menu-grid" id="menuGrid">
+          <div class="menu-card" data-cat="burgers" data-name="OCK Classic" data-desc="Pão brioche, blend 180g, cheddar, alface, tomate, molho da casa." data-price="R$ 32,90" data-img="https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=400" alt="OCK Classic" loading="lazy"/></div>
+            <div class="mc-body"><h4>OCK Classic</h4><span class="mc-price">R$ 32,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="burgers" data-name="OCK Double" data-desc="Dois blends 120g, duplo cheddar, bacon crocante, molho especial." data-price="R$ 42,90" data-img="https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=400" alt="OCK Double" loading="lazy"/></div>
+            <div class="mc-body"><h4>OCK Double</h4><span class="mc-price">R$ 42,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="burgers" data-name="OCK Smash" data-desc="Dois smash 90g, queijo americano, cebola caramelizada, picles, maionese defumada." data-price="R$ 38,90" data-img="https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg?auto=compress&cs=tinysrgb&w=400" alt="OCK Smash" loading="lazy"/></div>
+            <div class="mc-body"><h4>OCK Smash</h4><span class="mc-price">R$ 38,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="burgers" data-name="OCK Bacon" data-desc="Blend 180g, bacon artesanal, queijo prato, cebola crispy, molho barbecue." data-price="R$ 39,90" data-img="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400" alt="OCK Bacon" loading="lazy"/></div>
+            <div class="mc-body"><h4>OCK Bacon</h4><span class="mc-price">R$ 39,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="burgers" data-name="OCK Especial" data-desc="Pão australiano, blend 200g, gorgonzola, rúcula, geleia de pimenta." data-price="R$ 46,90" data-img="https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&w=400" alt="OCK Especial" loading="lazy"/></div>
+            <div class="mc-body"><h4>OCK Especial</h4><span class="mc-price">R$ 46,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="porcoes" data-name="Batata Frita" data-desc="Batata palito crocante temperada, porção generosa para compartilhar." data-price="R$ 22,90" data-img="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Batata Frita" loading="lazy"/></div>
+            <div class="mc-body"><h4>Batata Frita</h4><span class="mc-price">R$ 22,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="porcoes" data-name="Batata Cheddar e Bacon" data-desc="Batata frita coberta com cheddar cremoso e bacon crocante." data-price="R$ 29,90" data-img="https://images.pexels.com/photos/4109111/pexels-photo-4109111.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/4109111/pexels-photo-4109111.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Batata Cheddar" loading="lazy"/></div>
+            <div class="mc-body"><h4>Batata Cheddar &amp; Bacon</h4><span class="mc-price">R$ 29,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="porcoes" data-name="Anéis de Cebola" data-desc="Anéis de cebola empanados e fritos, crocantes por fora, macios por dentro." data-price="R$ 24,90" data-img="https://images.pexels.com/photos/6697319/pexels-photo-6697319.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/6697319/pexels-photo-6697319.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Anéis de Cebola" loading="lazy"/></div>
+            <div class="mc-body"><h4>Anéis de Cebola</h4><span class="mc-price">R$ 24,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="executivo" data-name="Filé com Fritas" data-desc="Filé mignon grelhado, fritas crocantes, arroz, feijão e salada." data-price="R$ 39,90" data-img="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Filé com Fritas" loading="lazy"/></div>
+            <div class="mc-body"><h4>Filé com Fritas</h4><span class="mc-price">R$ 39,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="executivo" data-name="Frango Grelhado" data-desc="Peito de frango grelhado, arroz, feijão, fritas e salada." data-price="R$ 34,90" data-img="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Frango Grelhado" loading="lazy"/></div>
+            <div class="mc-body"><h4>Frango Grelhado</h4><span class="mc-price">R$ 34,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="chopp" data-name="Chopp Brahma Draft" data-desc="Chopp Brahma Draft gelado, 500ml, servido no copo gelado." data-price="R$ 12,90" data-img="https://images.pexels.com/photos/1537635/pexels-photo-1537635.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/1537635/pexels-photo-1537635.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Chopp Brahma" loading="lazy"/></div>
+            <div class="mc-body"><h4>Chopp Brahma Draft</h4><span class="mc-price">R$ 12,90</span></div>
+          </div>
+          <div class="menu-card" data-cat="chopp" data-name="Refrigerante Lata" data-desc="Coca-Cola, Sprite, Guaraná Antarctica – lata 350ml gelada." data-price="R$ 7,00" data-img="https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=800">
+            <div class="mc-img"><img src="https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Refrigerante" loading="lazy"/></div>
+            <div class="mc-body"><h4>Refrigerante Lata</h4><span class="mc-price">R$ 7,00</span></div>
+          </div>
+        </div>
+        <p class="menu-empty hidden" id="menuEmpty">Nenhum item encontrado.</p>
+        <div class="menu-cta" data-aos="fade-up">
+          <p>Quer ver o cardápio completo?</p>
+          <a href="https://wa.me/5564992025560?text=Ola!%20Gostaria%20de%20ver%20o%20cardapio%20completo%20da%20OCK%20Burger." target="_blank" rel="noopener" class="btn btn-primary">Solicitar Cardápio Completo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria">
+      <div class="container">
+        <p class="section-tag centered" data-aos="fade-up">Galeria</p>
+        <h2 class="section-title centered" data-aos="fade-up">Vem <span class="gold">Conferir</span></h2>
+        <!-- FOTOS -->
+        <p class="section-tag centered" data-aos="fade-up" style="margin-bottom:.5rem">Fotos</p>
+        <div class="masonry-grid">
+          <div class="mg-item" data-aos="zoom-in"><img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Burger" loading="lazy"/></div>
+          <div class="mg-item tall" data-aos="zoom-in"><img src="https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Burger e Fritas" loading="lazy"/></div>
+          <div class="mg-item" data-aos="zoom-in"><img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fritas" loading="lazy"/></div>
+          <div class="mg-item" data-aos="zoom-in"><img src="https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Prato" loading="lazy"/></div>
+          <div class="mg-item" data-aos="zoom-in"><img src="https://images.pexels.com/photos/1537635/pexels-photo-1537635.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chopp" loading="lazy"/></div>
+          <div class="mg-item" data-aos="zoom-in"><img src="https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Burger" loading="lazy"/></div>
+          <div class="mg-item tall" data-aos="zoom-in"><img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Prato Executivo" loading="lazy"/></div>
+          <div class="mg-item" data-aos="zoom-in"><img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Carne" loading="lazy"/></div>
+        </div>
+
+        <!-- VÍDEOS -->
+        <p class="section-tag centered" data-aos="fade-up" style="margin-top:3rem;margin-bottom:.5rem">Vídeos</p>
+        <div class="video-grid">
+          <div class="vg-item" data-aos="fade-up" data-delay="0">
+            <video src="images/WhatsApp Video 2026-06-12 at 14.06.33.mp4" controls playsinline muted loop preload="metadata">
+              <p>Seu navegador não suporta vídeo HTML5.</p>
+            </video>
+          </div>
+          <div class="vg-item" data-aos="fade-up" data-delay="100">
+            <video src="images/WhatsApp Video 2026-06-12 at 14.07.33.mp4" controls playsinline muted loop preload="metadata">
+              <p>Seu navegador não suporta vídeo HTML5.</p>
+            </video>
+          </div>
+          <div class="vg-item" data-aos="fade-up" data-delay="200">
+            <video src="images/WhatsApp Video 2026-06-12 at 14.07.37.mp4" controls playsinline muted loop preload="metadata">
+              <p>Seu navegador não suporta vídeo HTML5.</p>
+            </video>
+          </div>
+          <div class="vg-item" data-aos="fade-up" data-delay="0">
+            <video src="images/WhatsApp Video 2026-06-12 at 14.08.28.mp4" controls playsinline muted loop preload="metadata">
+              <p>Seu navegador não suporta vídeo HTML5.</p>
+            </video>
+          </div>
+        </div>
+      </div>
+      <div id="lightbox" class="lightbox hidden">
+        <button class="lb-close" id="lbClose">&#10005;</button>
+        <button class="lb-nav lb-prev" id="lbPrev">&#8249;</button>
+        <img id="lbImg" src="" alt=""/>
+        <button class="lb-nav lb-next" id="lbNext">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section id="avaliacoes">
+      <div class="container">
+        <p class="section-tag centered" data-aos="fade-up">Depoimentos</p>
+        <h2 class="section-title centered" data-aos="fade-up">O Que Nossos <span class="gold">Clientes Dizem</span></h2>
+        <div class="rating-summary" data-aos="fade-up">
+          <div class="rs-score">4.9</div>
+          <div class="rs-stars">★★★★★</div>
+          <div class="rs-count">+500 avaliações</div>
+        </div>
+        <div class="carousel-wrap" data-aos="fade-up">
+          <button class="car-btn car-prev" id="carPrev">&#8249;</button>
+          <div class="carousel" id="carousel">
+            <div class="car-track" id="carTrack">
+              <div class="review-card">
+                <div class="rc-stars">★★★★★</div>
+                <p>"O melhor hambúrguer artesanal que já comi em Santa Helena! Atendimento impecável e o ambiente é incrível."</p>
+                <div class="rc-author"><div class="rc-avatar">M</div><div><strong>Marcos Silva</strong><span>Santa Helena de Goiás</span></div></div>
+              </div>
+              <div class="review-card">
+                <div class="rc-stars">★★★★★</div>
+                <p>"Fui ao OCK Burger pela primeira vez e já virei fã! O smash burger é sensacional, e o chopp gelado fecha com perfeição."</p>
+                <div class="rc-author"><div class="rc-avatar">A</div><div><strong>Ana Beatriz</strong><span>Rio Verde – GO</span></div></div>
+              </div>
+              <div class="review-card">
+                <div class="rc-stars">★★★★★</div>
+                <p>"Ambiente aconchegante, tem brinquedoteca para as crianças e a comida é sempre fresquinha. Recomendo demais!"</p>
+                <div class="rc-author"><div class="rc-avatar">C</div><div><strong>Carlos e Família</strong><span>Quirinópolis – GO</span></div></div>
+              </div>
+              <div class="review-card">
+                <div class="rc-stars">★★★★★</div>
+                <p>"Pedi pelo delivery e chegou rápido, quentinho e incrível. O prato executivo é muito bom e com preço justo!"</p>
+                <div class="rc-author"><div class="rc-avatar">F</div><div><strong>Fernanda Rocha</strong><span>Santa Helena de Goiás</span></div></div>
+              </div>
+              <div class="review-card">
+                <div class="rc-stars">★★★★★</div>
+                <p>"Uma evolução absurda desde que abriu! De delivery virou o melhor restaurante da cidade. Parabéns à equipe!"</p>
+                <div class="rc-author"><div class="rc-avatar">R</div><div><strong>Rodrigo Mendes</strong><span>Jataí – GO</span></div></div>
+              </div>
+              <div class="review-card">
+                <div class="rc-stars">★★★★★</div>
+                <p>"A porção de batata com cheddar e bacon é de outro nível. Sempre que venho a Santa Helena paro no OCK Burger!"</p>
+                <div class="rc-author"><div class="rc-avatar">L</div><div><strong>Letícia Alves</strong><span>Mineiros – GO</span></div></div>
+              </div>
+            </div>
+          </div>
+          <button class="car-btn car-next" id="carNext">&#8250;</button>
+        </div>
+        <div class="car-dots" id="carDots"></div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta-video">
+      <div class="cta-bg" id="ctaBg"></div>
+      <div class="cta-overlay"></div>
+      <div class="cta-content" data-aos="fade-up">
+        <p class="section-tag centered">Aberto Hoje</p>
+        <h2 class="cta-title">Das <span class="gold">11h às 23h30</span><br/>Pronto Para Te Atender</h2>
+        <p class="cta-sub">Delivery, mesas ou balcão — do seu jeito!</p>
+        <a href="https://wa.me/5564992025560?text=Ola!%20Gostaria%20de%20fazer%20um%20pedido%20na%20OCK%20Burger." target="_blank" rel="noopener" class="btn btn-gold btn-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.852L.057 23.5a.5.5 0 0 0 .607.61l5.798-1.521A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.952 9.952 0 0 1-5.139-1.426l-.367-.218-3.439.902.918-3.354-.239-.385A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Pedir pelo WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section id="localizacao">
+      <div class="container">
+        <p class="section-tag centered" data-aos="fade-up">Onde Estamos</p>
+        <h2 class="section-title centered" data-aos="fade-up">Venha Nos <span class="gold">Visitar</span></h2>
+        <div class="loc-grid">
+          <div class="loc-info" data-aos="fade-right">
+            <div class="loc-item">
+              <div class="loc-icon">📍</div>
+              <div><strong>Endereço</strong><p>Rua Paulo Lopes, 509 – Centro<br/>Santa Helena de Goiás – GO</p></div>
+            </div>
+            <div class="loc-item">
+              <div class="loc-icon">🕐</div>
+              <div><strong>Horário de Funcionamento</strong><p>Segunda a Domingo<br/>11:00 – 23:30</p></div>
+            </div>
+            <div class="loc-item">
+              <div class="loc-icon">📞</div>
+              <div><strong>Telefone / WhatsApp</strong><p><a href="https://wa.me/5564992025560">(64) 99202-5560</a></p></div>
+            </div>
+            <div class="loc-item">
+              <div class="loc-icon">🛵</div>
+              <div><strong>Delivery</strong><p>Disponível todos os dias<br/>Santa Helena de Goiás e região</p></div>
+            </div>
+            <a href="https://wa.me/5564992025560" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:1.5rem">Falar pelo WhatsApp</a>
+          </div>
+          <div class="loc-map" data-aos="fade-left">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.5533308168633!2d-50.601073424825124!3d-17.81267758314888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93602a2986575429%3A0x25be6488f6eb9846!2sR.%20Paulo%20Lopes%2C%20509%20-%20Centro%2C%20Santa%20Helena%20de%20Goi%C3%A1s%20-%20GO%2C%2075920-000!5e0!3m2!1spt-BR!2sbr!4v1781665704288!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container footer-grid">
+          <div class="fg-brand">
+            <img src="images/image.png" alt="OCK Burger" class="footer-logo" />
+            <p>Hamburgeria Artesanal · Choperia · Restaurante<br/>Santa Helena de Goiás – GO · Since 2021</p>
+          </div>
+          <div class="fg-links">
+            <h5>Navegação</h5>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#avaliacoes">Avaliações</a>
+            <a href="#localizacao">Localização</a>
+          </div>
+          <div class="fg-contact">
+            <h5>Contato</h5>
+            <p>Rua Paulo Lopes, 509 – Centro<br/>Santa Helena de Goiás – GO</p>
+            <p><a href="https://wa.me/5564992025560">(64) 99202-5560</a></p>
+            <p><a href="mailto:Trabalhoockburger@gmail.com">Trabalhoockburger@gmail.com</a></p>
+          </div>
+          <div class="fg-social">
+            <h5>Redes Sociais</h5>
+            <div class="social-links">
+              <a href="https://instagram.com/ockburger" target="_blank" rel="noopener" class="social-btn ig" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </a>
+              <a href="https://wa.me/5564992025560" target="_blank" rel="noopener" class="social-btn wa" aria-label="WhatsApp">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.852L.057 23.5a.5.5 0 0 0 .607.61l5.798-1.521A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.952 9.952 0 0 1-5.139-1.426l-.367-.218-3.439.902.918-3.354-.239-.385A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; 2025 OCK Burger. Todos os direitos reservados.</p>
+          <p>Desenvolvido com amor em Santa Helena de Goiás</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MENU MODAL -->
+    <div id="menuModal" class="modal hidden">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">&#10005;</button>
+        <div class="modal-img"><img id="modalImg" src="" alt=""/></div>
+        <div class="modal-body">
+          <h3 id="modalName"></h3>
+          <p id="modalDesc"></p>
+          <div class="modal-footer">
+            <span class="modal-price" id="modalPrice"></span>
+            <a id="modalOrder" href="#" target="_blank" rel="noopener" class="btn btn-primary">Pedir Agora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/5564992025560?text=Ola!%20Gostaria%20de%20fazer%20um%20pedido%20na%20OCK%20Burger." target="_blank" rel="noopener" class="wa-float" aria-label="Falar pelo WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.852L.057 23.5a.5.5 0 0 0 .607.61l5.798-1.521A11.946 11.946 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.952 9.952 0 0 1-5.139-1.426l-.367-.218-3.439.902.918-3.354-.239-.385A9.96 9.96 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      <span class="wa-float-label">Pedir Agora</span>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
