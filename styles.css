@@ -168,9 +168,9 @@ a     { color: inherit; text-decoration: none; }
 .mc-img { height: 160px; overflow: hidden; }
 .mc-img img { transition: transform .5s ease; }
 .menu-card:hover .mc-img img { transform: scale(1.1); }
-.mc-body { padding: .9rem 1rem; display: flex; justify-content: space-between; align-items: center; }
-.mc-body h4 { font-family: var(--font-h); font-size: 1.1rem; color: var(--white); letter-spacing: .03em; }
-.mc-price { font-family: var(--font-h); font-size: 1rem; color: var(--gold); white-space: nowrap; margin-left: .5rem; }
+.mc-body { min-height: 86px; padding: .9rem 1rem; display: flex; flex-direction: column; justify-content: space-between; gap: .45rem; align-items: flex-start; }
+.mc-body h4 { font-family: var(--font-h); font-size: 1.1rem; color: var(--white); letter-spacing: .03em; line-height: 1.12; overflow-wrap: anywhere; }
+.mc-price { font-family: var(--font-h); font-size: 1rem; color: var(--gold); white-space: nowrap; }
 .menu-empty { text-align: center; color: var(--gray-mid); padding: 3rem 0; font-size: 1.1rem; }
 .menu-cta { text-align: center; margin-top: 3.5rem; }
 .menu-cta p { color: var(--gray-light); margin-bottom: 1rem; }
